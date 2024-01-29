@@ -17,7 +17,7 @@ internal class Circulo : FormaGeometrica
     }
     public override decimal CalcularArea()
     {
-        decimal area = Pi * (Raio ^ 2);
+        decimal area = Pi * (decimal)Math.Pow(Raio, 2);
         return area;
     }
 

@@ -19,4 +19,6 @@ internal class Triangulo : FormaGeometrica
         decimal area = LadoBase * Altura / 2;
         return area;
     }
+
+    //implementar metodos de condições de existencia do triangulo e suas especificidades 
 }
